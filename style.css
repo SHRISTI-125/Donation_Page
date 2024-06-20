@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation_bar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+#navigation_bar ul li{
+    list-style: none;
+}
+#logo{
+    margin:10px 12px;
+}
+#logo img{
+    height:56px;
+    margin:3px 4px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+#navigation_bar ul{
+    display: flex;
+}
+#navigation_bar::before{
+    content: " ";
+    background:rgb(244, 244, 244);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 6.5;
+}
+
+#navigation_bar ul li a{
+    color:rgb(8, 8, 8);
+    display:block;
+    padding:3px 22px;
+    border-radius: 30px;
+}
+#navigation_bar ul li a:hover{
+    color:rgb(238, 218, 247);
+    background-color: rgb(82, 1, 63);
+}
+#one{
+    position:relative;
+    text-decoration: rgb(246, 243, 243);
+    background: rgb(233, 246, 248);
+}
+#one::before{
+    content:"";
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#id-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(233, 246, 248);
+}
+
+#id-1 img{
+    height: 580px;
+    width:"450px";
+    border-radius: 10px;
+}
+.content{
+    padding: 34px;
+    text-decoration: aliceblue;
+}
+
+#content{
+    background: rgb(239, 235, 235);
+    filter:brightness(100%)
+}
+#content2{
+    color: black;
+}
+
+#content{
+    height: 723px;
+    color: rgb(160, 33, 250);
+    width: 100%;
+    opacity: 0.9;
+}
+
+#content2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#heading1{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 4px solid rgb(65, 191, 254);
+    border-radius: 4px;
+    background-color: rgb(49, 152, 255);
+    color: rgb(17, 17, 17);
+    margin: 13px;
+    font-size: 1.1rem;
+    cursor:pointer;
+    
+}
+
+
+#content form{
+    width:100%;
+}
+
+#content textarea{
+    height: 50px;
+}
+#content input,
+#content textarea{
+    width: 190px;
+    padding: 0.3rem;
+    border-radius: 10px white;
+    font-size: 1.1rem;
+    border-color: rgb(251, 251, 250);
+    background-color: rgb(44, 38, 38);
+    opacity: 0.8;
+    color: whitesmoke;
+}
